@@ -11,7 +11,7 @@ body { background:url('../img/background.jpg') no-repeat; background-size:100% 1
 .right-big-arrow { opacity:0.4; margin-left:20px; margin-bottom:20px; position:absolute; cursor:pointer; width:250px; height:250px; bottom:150px; background:url('../img/right_big_arrow.png') no-repeat; background-size: 100% 100%; }
 .bottom-text { text-align:center; margin:0 auto; font-size:60px; color:#fff; line-height:150px }
 
-.mid { position:relative; width:100%; margin-top:220px; margin-bottom:150px;
+.mid { position:relative; width:100%; margin-top:220px;
 	height: 60%;
 	height: -moz-calc(100vh - 440px) !important;
     height: -webkit-calc(100vh - 440px) !important;
