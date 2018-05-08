@@ -1,12 +1,14 @@
-﻿body { background:url('../img/background.jpg') no-repeat; background-size:100% 100%; margin:0; overflow:hidden }
+﻿@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body { background:url('../img/background.jpg') no-repeat; background-size:100% 100%; margin:0; overflow:hidden; font-family: "Nanum Gothic", sans-serif; }
 
 .top { position:absolute; width:100%; top:0; height:150px; background:#aaa }
 .book-icon { position:absolute; top:10px; left:230px; width:160px; height:130px; background:url('../img/book-icon.png') no-repeat; background-size:100% 100%; }
 .top-text { width:fit-content; text-align:center; margin:0 auto; font-size:60px; padding-right:20px; line-height:150px; background:url('../img/book-icon.png') no-repeat; background-size:160px 140px; background-position-y:bottom; padding-left:160px; color:#fff }
 .bottom { position:absolute; width:100%; bottom:0; height:150px; background:#aaa }
-.left-arrow { cursor:pointer; position:absolute; top:6px; width:100px; height:140px; background:url('../img/left_arrow.png') no-repeat; background-size: 100% 100%; }
-.right-arrow { cursor:pointer; position:absolute; right:0; width:100px; height:140px; top:10px; background:url('../img/right_arrow.png') no-repeat; background-size: 100% 100%; }
-.right-big-arrow { opacity:0.6; margin-left:20px; margin-bottom:20px; position:absolute; cursor:pointer; width:250px; height:250px; bottom:150px; background:url('../img/right_big_arrow.png') no-repeat; background-size: 100% 100%; }
+.left-arrow { padding-right:100px; cursor:pointer; position:absolute; top:6px; width:100px; height:140px; background:url('../img/left_arrow.png') no-repeat; background-size: 100px 140px; }
+.right-arrow { background-position-x:right !important; padding-left:100px; cursor:pointer; position:absolute; right:0; width:100px; height:140px; top:10px; background:url('../img/right_arrow.png') no-repeat; background-size: 100px 140px; }
+.right-big-arrow { opacity:0.4; margin-left:20px; margin-bottom:20px; position:absolute; cursor:pointer; width:250px; height:250px; bottom:150px; background:url('../img/right_big_arrow.png') no-repeat; background-size: 100% 100%; }
 .bottom-text { text-align:center; margin:0 auto; font-size:60px; color:#fff; line-height:150px }
 
 .mid { position:relative; width:100%; margin-top:220px;
@@ -17,6 +19,6 @@
 	overflow-y:auto;
 }
 .container { width:80%; margin:0 auto; }
-.text-area { font-size:55px; text-align:left }
+.text-area { line-height:2.4; font-size:55px; text-align:left }
 
 #toast-container { left:24% !important; margin:0 auto; width:100% !important }
